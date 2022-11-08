@@ -1,5 +1,15 @@
 body {
-    background-image: linear-gradient(to right bottom, #15ee7c, #00e3bf, #00d1f2, #00baff, #009eff, #3d8efd, #627cf6, #8267e9, #8d5fec, #9a55ed, #a748ed, #b537ec);
+    /* background-image: linear-gradient(to right bottom, #15ee7c, #00e3bf, #00d1f2, #00baff, #009eff, #3d8efd, #627cf6, #8267e9, #8d5fec, #9a55ed, #a748ed, #b537ec); */
+    background-color: rgb(40, 35, 35);
     font-family: ABeeZee, sans-serif;
-    color: white;
+    color: rgb(3, 180, 97);
+}
+
+.progress-bar{
+    width: 80%;
+}
+
+.card {
+    margin: 10rem;
+    background-color: rgb(40, 35, 35);
 }

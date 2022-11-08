@@ -7,3 +7,7 @@ body {
 .progress-bar{
     width: 80%;
 }
+
+.card {
+    background-color: darkslategray;
+}
