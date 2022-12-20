@@ -1,0 +1,21 @@
+{
+    "name": "Tobias Napal",
+    "profileImg": "D:\\usuarios\\alumno\\documentos\\ProgramacionCurso\\Git\\Portfolio-FrontEnd\\PortfolioAngular\\PortfolioAngular\\src\\assets\\FotoPerfil.jpg",
+
+    "education": [{
+        "school": "ESRN 10",
+        "career": "Principios de Economía y Administración de Empresas",
+        "title": "Bachiller",
+        "start": "2017",
+        "end": "2021"
+    }],
+
+    "experience": [{
+        "business": "Ferreteria Esperanza",
+        "title": "Atención al público",
+        "start": "2022",
+        "end": "",
+        "contactName": "Contacto",
+        "contactPhone": "12345"
+    }]
+}

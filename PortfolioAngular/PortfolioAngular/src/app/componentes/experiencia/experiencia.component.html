@@ -1,11 +1,13 @@
 <section id="experiencia-laboral">
-  <div class="card">
+  <div class="container">
     <div class="row">
-      <div class="col">
+      <div class="col" *ngFor="let experience of experienceList">
         <h2 class="text-center align-top">Experiencia laboral</h2>
-        <p>Establecimiento: Ferretería "Esperanza"</p>
-        <p>Puesto: Atención al público</p>
+        <p>{{experience.business}}</p>
+        <p>{{experience.title}}</p>
+        <p><time>{{experience.start}}</time></p>
       </div>
     </div>		
+    <app-grupoBotones></app-grupoBotones>
   </div>
 </section>

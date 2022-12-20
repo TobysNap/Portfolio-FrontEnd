@@ -1,11 +1,21 @@
-<div class="card">
-  <div class="row">
-    <div class="col">
-      <h2 class="text-center">EDUCACIÓN</h2>
-      <p>Nivel educativo: Secundario completo</p>
-      <p>Establecimiento: Escuela Secundaria de Rio Negro N° 10</p>
-      <p>Titulo: Bachiller en economia y administracion</p>
-      <p>Año de finalizacion: 2021</p>
+<section id="educacion">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>educación</h2>
+      </div>
+  </div>
+  <ul class="items-list">
+    <li *ngFor="let educacion of educationList">
+      <div class="data-container">
+          <div class="list-info">
+            <h3>{{educacion.school}}</h3>
+            <p>{{educacion.title}} en {{educacion.career}}</p>
+            <p><time>{{educacion.start}}</time> - <time>{{educacion.end}}</time></p>
+          </div>
+      </div>
+    </li>
+  </ul>
+  <app-grupoBotones></app-grupoBotones>
 </div>
-</div>
-</div>
+</section>

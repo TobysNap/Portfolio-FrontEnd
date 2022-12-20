@@ -9,6 +9,9 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
+import { GrupoBotonesComponent } from './componentes/grupo-botones/grupo-botones.component';
+import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,11 +21,14 @@ import { ExperienciaComponent } from './componentes/experiencia/experiencia.comp
     ProyectosComponent,
     HabilidadesComponent,
     EducacionComponent,
-    ExperienciaComponent
+    ExperienciaComponent,
+    GrupoBotonesComponent,
+    AcercaDeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

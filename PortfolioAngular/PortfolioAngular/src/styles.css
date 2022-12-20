@@ -1,15 +1,91 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
 body {
-    /* background-image: linear-gradient(to right bottom, #15ee7c, #00e3bf, #00d1f2, #00baff, #009eff, #3d8efd, #627cf6, #8267e9, #8d5fec, #9a55ed, #a748ed, #b537ec); */
-    background-color: rgb(40, 35, 35);
     font-family: ABeeZee, sans-serif;
-    color: rgb(3, 180, 97);
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    background-image: linear-gradient(to right, #1D976C, #93F9B9);
+    padding-top: 7rem;
+    height: 100%;
+}
+
+section h2 {
+    vertical-align: top;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+section p {
+    text-align: center;
+}
+
+#educacion {
+    background-image: linear-gradient(to right, #ff512f, #f09819);
+}
+
+#habilidades {
+    background-image: linear-gradient(to right, #1a2980, #26d0ce);
+}
+
+#proyectos {
+    background-image: linear-gradient(to right, #1d2b64, #f8cdda);
+}
+
+#inicio {
+    background-image: linear-gradient(to right, #dd5e89, #f7bb97);
+    padding-top: 0rem;
+    text-align: justify;
+}
+
+.btn-group {
+    right: 1rem;
+    position: absolute;
 }
 
 .progress-bar{
     width: 80%;
 }
 
-.card {
-    margin: 10rem;
-    background-color: rgb(40, 35, 35);
+.btn{
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    background-image: linear-gradient(to top, #262626 0px, #404040 10px, #262626 10px, #333 100%);
+}
+.btn:hover{
+    color: #fff;
+}
+.btn:after{
+    content: "";
+    width: 0;
+    height: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 5px 5px;
+    transition: all 0.35s ease 0s;
+}
+.btn:hover:after{
+    width: 100%;
+}
+
+.btn.green:after{
+    background: #7ad79a;
+}
+@media only  screen and (max-width: 767px){
+    .btn{ margin-bottom: 20px; }
+}
+
+.carousel.slide {
+    padding-right: 5rem;
+    padding-left: 5rem;    
 }
